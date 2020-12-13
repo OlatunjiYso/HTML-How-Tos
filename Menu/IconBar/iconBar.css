@@ -1,0 +1,51 @@
+.icon-bar {
+    background-color: #555;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-bar a {
+    width: 20%;
+    padding: 20px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+
+}
+
+
+
+
+
+.icon-bar-vertical {
+    margin-top: 100px;
+    width: 6em;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon-bar-vertical a {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.icon-bar-vertical a:hover {
+    background-color: #000;
+
+}
+
